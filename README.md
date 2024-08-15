@@ -1,7 +1,7 @@
 # Private Data Handling Terraform Port from CloudFormation
 
 ## Attention:  
-This is base code set to assist with automating Private Data Handling for Alteyrx Analytics Cloud Platform in an AWS environment, there is no support for this code and it is being offered as a staring poing only, modify or enhance for your environment at will.   
+This is base code set to assist with automating Private Data Handling for Alteyrx Analytics Cloud Platform in an AWS environment, there is no support for this code and it is being offered as a starting poing only, modify or enhance for your environment at will.   
 
 **Purpose:**  Terraform to support the enablement of the Private Data Handling AWS infrastructure for Alteryx Analytics Cloud Platform with base security additions of **S3 backed CloudTrail and VPC Flow Logs**
 
