@@ -28,3 +28,7 @@ backend.tf - create a new bucket to store your state file and add the bucket nam
 /cloudtrail/variables.tf - modify the pdh-s3 variable "default=" to the name of the bucket you want to store your cloudtrail logs in
 
 /cloudtrail/main.tf - modify aws_s3_bucket_policy lines 37 & 38 to match your bucket name for cloudtrail logs. same value you put in for pdh-s3 in variables.tf
+
+## Credentials and identifiers
+
+All account ids and bucket names in this repository are placeholders. Do not put access keys in `provider.tf`; use the AWS CLI profile or environment variables. State files are ignored by `.gitignore` and must never be committed.
